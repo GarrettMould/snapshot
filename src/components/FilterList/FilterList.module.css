@@ -1,0 +1,47 @@
+.extraPadding {
+  margin-top: 3%;
+}
+.buttonRow {
+  display: flex;
+  padding-top: 5%;
+  flex-direction: row;
+}
+
+.dropdownRow {
+  padding: 4%;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.4);
+}
+
+.btnFilter {
+  font-family: "NexaRegular";
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  font-size: 80%;
+  font-weight: 600;
+  color: #808080;
+  background-color: transparent;
+  border: none;
+}
+
+.btnFilter:hover {
+  background-color: transparent;
+  color: black;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+.btnFilter:focus {
+  background-color: #f0f0f0;
+  color: black;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+.padding {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

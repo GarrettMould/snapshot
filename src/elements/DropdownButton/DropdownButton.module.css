@@ -1,0 +1,23 @@
+.dropdownBtn {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.dropdownBtn:hover {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.listItem:active {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.dropdownBtn:focus,
+.dropdownBtn:active {
+  background-color: white !important;
+  border: 1px solid grey !important;
+  color: black !important;
+}

@@ -1,0 +1,25 @@
+.navbarHeader {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainlogo {
+  max-width: 180px;
+}
+
+.siteTitle {
+  font-size: 1.5rem;
+  font-family: "NexaBold";
+}
+
+.shutter {
+  width: 25px;
+  height: 25px;
+}
+
+.padding {
+  background-color: white;
+}

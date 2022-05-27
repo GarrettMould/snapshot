@@ -1,0 +1,15 @@
+.btn {
+  width: 75%;
+  height: 40px;
+  display: inline-block;
+  background-color: #00bfa5;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.btn:focus,
+.btn:hover,
+.btn:active {
+  background-color: #008e76;
+}

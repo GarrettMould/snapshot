@@ -1,0 +1,72 @@
+.padding {
+  padding: 10% 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paymentCard {
+  padding: 5% 3%;
+  border: none;
+}
+
+.paymentRow {
+  margin: 4% 0%;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.btnPaymentMethod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btnPaymentMethodSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100%;
+  height: 40px;
+  background-color: #00bfa5;
+  color: #f0f0f0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btnPaymentMethodSelected:hover {
+  background-color: #00bfa5;
+  color: #f0f0f0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btnPaymentMethod:hover {
+  background-color: #00bfa5;
+  color: #f0f0f0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+}
+
+.btnPaymentMethod:focus,
+.btnPaymentMethod:active,
+.btnPaymentMethodSelected:focus,
+.btnPaymentMethodSelected:active {
+  background-color: #00bfa5 !important;
+  color: #f0f0f0 !important;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}

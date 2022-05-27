@@ -1,0 +1,9 @@
+.subText {
+  width: 90%;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: "NexaRegular";
+  color: grey;
+  margin-bottom: 5%;
+}

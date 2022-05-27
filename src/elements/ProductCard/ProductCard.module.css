@@ -1,0 +1,51 @@
+.productCard {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 1% 0.5%;
+  border: none;
+  border-radius: 0.8rem;
+  width: 18rem;
+  height: 18rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  padding-top: 2%;
+  font-family: "NexaBold";
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-top: 1%;
+  font-family: "NexaBold";
+}
+
+.cardSubtitle {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-top: 0.05rem;
+  padding-bottom: 2%;
+  font-family: "NexaRegular";
+}
+
+.cardContainer {
+  padding: 2%;
+}
+.productImage {
+  padding: 3% 0%;
+  max-width: 150px;
+}
+
+.padding {
+  padding-bottom: 8%;
+}

@@ -1,0 +1,22 @@
+.img {
+  max-width: 300px;
+}
+
+.title {
+  padding-bottom: 2%;
+  font-family: "NexaBold";
+  font-size: 1.4rem;
+}
+
+.price {
+  padding-bottom: 2%;
+  font-family: "NexaBold";
+  font-size: 1.2rem;
+}
+
+.specs {
+  padding-bottom: 5%;
+  font-family: "NexaRegular";
+  color: grey;
+  font-size: 1rem;
+}

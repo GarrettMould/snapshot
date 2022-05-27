@@ -1,0 +1,28 @@
+.dropdownBtn {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.dropdownBtn:hover {
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: white !important;
+  border: 1px solid grey !important;
+  color: grey !important;
+}
+
+.dropdownBtn:focus,
+.dropdownBtn:active {
+  background-color: white !important;
+  border: 1px solid grey !important;
+  color: black !important;
+}

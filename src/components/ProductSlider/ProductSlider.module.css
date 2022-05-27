@@ -1,0 +1,65 @@
+.padding {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: white;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 1% 0.5%;
+  border: none;
+  border-radius: 0.8rem;
+  width: 18rem;
+  height: 18rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.productCard:hover {
+  cursor: pointer;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  padding-top: 1%;
+  font-family: "NexaBold";
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-top: 1%;
+  font-family: "NexaBold";
+}
+
+.cardSubtitle {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+  font-family: "NexaRegular";
+}
+
+.cardContainer {
+  padding: 2%;
+}
+.productImage {
+  padding: 3% 0%;
+  max-width: 120px;
+}
+
+.padding {
+  padding-bottom: 7%;
+}

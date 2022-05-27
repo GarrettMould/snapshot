@@ -1,0 +1,30 @@
+.padding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 90vh;
+  width: auto;
+}
+
+ul {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.item {
+  font-family: "NexaBold";
+  font-size: 200%;
+  margin-bottom: 10%;
+}
+
+span:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #07ecce 50%);
+}
+
+span:active {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #07ecce 50%);
+}

@@ -1,0 +1,15 @@
+.padding {
+  height: 289px;
+  padding: 9% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  padding-top: 4%;
+  font-family: "NexaRegular";
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
