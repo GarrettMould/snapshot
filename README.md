@@ -1,72 +1,42 @@
-# Getting Started with Create React App
+# SnapShot Mobile
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mobile site for a film photography shop in Hanoi, Vietnam. Users can browse a variety of film cameras, purchase film online, and pick out accessories for their film camera.  
 
-## Available Scripts
+[DEMO](https://quirky-swanson-a30098.netlify.app/)
 
-In the project directory, you can run:
+## Images 
 
-### `npm start`
+### Homepage 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Homepage (1)](https://user-images.githubusercontent.com/86705418/158149516-2803d301-f4f6-4033-a177-c5a8dd1c4178.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Browse Selection Page 
 
-### `npm test`
+Users can browse film cameras, different film brands, and accessories for their camera. Filters can be applied to narrow search results. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![BrowsePage](https://user-images.githubusercontent.com/86705418/158149509-c0669a1d-fca9-440a-aac5-e6e4b57b477f.jpg)
 
-### `npm run build`
+###  Product Details Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users can find detailed information about the product of their choice
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![ProductDetailPage](https://user-images.githubusercontent.com/86705418/158149527-38fe86bc-c5d9-4977-bea8-5eb7066175b2.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+###  Customer Details Page
 
-### `npm run eject`
+Users input their information when making a purchase
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![CustomerDetailPage](https://user-images.githubusercontent.com/86705418/158149511-2c85c6a0-37fa-442f-a590-ad0b893f2d0c.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###  Payment Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Users select their method of payment and confirm their order
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![PaymentDetailsPage](https://user-images.githubusercontent.com/86705418/158149525-9be3a4f7-6106-460c-9f2c-e46024fc2b85.jpg)
 
-## Learn More
+###  Order Confirmation Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A notification that the order has been placed
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![OrderConfirmationPage](https://user-images.githubusercontent.com/86705418/158149523-bda59549-b397-4893-9e3f-5fb17846a34c.jpg)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# cameraShopMobile
-# snapshot
