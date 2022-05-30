@@ -1,9 +1,18 @@
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { format, add } from "date-fns";
 import shutterLogo from "../../Images/shutterLogo.png";
 import ButtonPurchase from "../../elements/ButtonPurchase/ButtonPurchase";
 import classes from "./OrderConfirmation.module.css";
 const OrderConfirmation = (props) => {
+  const result = add(new Date(), {
+    days: 3,
+  });
+
+  var date = format(new Date(result), "EEEE, MMMM do");
+
+  console.log(date);
+
   return (
     <div className={classes.padding}>
       <Card className={classes.card}>
@@ -14,7 +23,7 @@ const OrderConfirmation = (props) => {
           </div>
           <div className="mb-3">
             <div className={classes.estimatedDelivery}>Estimated Delivery:</div>
-            <div className={classes.date}>Thursday, March 18th</div>
+            <div className={classes.date}>{date}</div>
           </div>
 
           <div className={classes.note}>
@@ -22,7 +31,7 @@ const OrderConfirmation = (props) => {
             arrives.
           </div>
         </div>
-        <Link to="/">
+        <Link to="/GarrettMould/cameraShopMobile">
           <ButtonPurchase text="Close Window"></ButtonPurchase>
         </Link>
       </Card>

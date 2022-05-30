@@ -12,13 +12,9 @@ import {
   buttonsFilms,
 } from "../shared/shared";
 import Home from "../components/Home/Home";
-import DropdownMenu from "../components/DropdownMenu/DropdownMenu";
-import ProductSlider from "../components/ProductSlider/ProductSlider";
-import PageDescription from "../components/PageDescription/PageDescription";
 import Header from "../components/Header/Header";
-import FilterList from "../components/FilterList/FilterList";
 import ProductPage from "../components/ProductPage/ProductPage";
-import FillFormProduct from "../elements/FillFormProduct/FillFormProduct";
+
 import FormPageProduct from "../components/FormPageProduct/FormPageProduct";
 import PaymentConfirmation from "../elements/PaymentConfirmation/PaymentConfirmation";
 import OrderConfirmation from "../components/OrderConfirmation/OrderConfirmation";
