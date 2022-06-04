@@ -14,8 +14,8 @@
 
 .btn {
   text-align: center;
-  width: 75%;
-  height: 45px;
+  width: 100%;
+  height: 40px;
   display: inline-block;
   background-color: #00bfa5;
   color: white;
@@ -29,8 +29,8 @@
 }
 
 .btn:disabled {
-  width: 75%;
-  height: 45px;
+  width: 100%;
+  height: 40px;
   display: inline-block;
   background-color: #00bfa6c8;
   color: white;
