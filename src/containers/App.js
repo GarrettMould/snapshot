@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import { Component } from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+import { useRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   cameras,
@@ -105,7 +107,7 @@ class App extends Component {
   render() {
     return (
       <Container className={classes.appContainer}>
-        <Header update={this.update}></Header>
+        <Header ref={this.myRef} update={this.update}></Header>
 
         <Routes>
           <Route
