@@ -18,9 +18,15 @@ const Footer = (props) => {
         <div className={classes.footerText}>"+0824675798"</div>
         <div className={classes.footerText}>snapshothanoi@gmail.com</div>
         <div className={classes.iconRow}>
-          <MapPin size={22}></MapPin>
-          <MessengerLogo size={22}></MessengerLogo>
-          <InstagramLogo size={22}></InstagramLogo>
+          <a href="#">
+            <MapPin size={22}></MapPin>
+          </a>
+          <a href="#">
+            <MessengerLogo size={22}></MessengerLogo>
+          </a>
+          <a href="#">
+            <InstagramLogo size={22}></InstagramLogo>
+          </a>
         </div>
       </div>
     </div>
