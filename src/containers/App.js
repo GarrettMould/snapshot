@@ -108,6 +108,16 @@ class App extends Component {
     return (
       <Container className={classes.appContainer}>
         <Header ref={this.myRef} update={this.update}></Header>
+        <Home
+          buttonsFilms={this.state.buttonsFilms}
+          buttonsCameras={this.state.buttonsCameras}
+          display={this.state.display}
+          update={this.update}
+          cameras={this.state.cameras}
+          films={this.state.films}
+          accessories={this.state.accessories}
+          select={this.select}
+        ></Home>
 
         <Routes>
           <Route
