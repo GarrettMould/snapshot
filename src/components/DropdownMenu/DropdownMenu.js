@@ -5,17 +5,29 @@ const DropdownMenu = (props) => {
   return (
     <div className={classes.padding}>
       <ul>
-        <a href="#productPage" id="Cameras" onClick={props.update}>
+        <a
+          href="#productPage"
+          id="Cameras"
+          onClick={props.handleDropdownItemSelect}
+        >
           <li className={classes.item}>
             <span>Cameras</span>
           </li>
         </a>
-        <a href="#productPage" id="Film" onClick={props.update}>
+        <a
+          href="#productPage"
+          id="Film"
+          onClick={props.handleDropdownItemSelect}
+        >
           <li className={classes.item}>
             <span>Film</span>
           </li>
         </a>
-        <a href="#productPage" id="Accessories" onClick={props.update}>
+        <a
+          href="#productPage"
+          id="Accessories"
+          onClick={props.handleDropdownItemSelect}
+        >
           <li className={classes.item}>
             <span>Accessories</span>
           </li>

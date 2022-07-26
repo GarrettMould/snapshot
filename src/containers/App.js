@@ -29,6 +29,7 @@ class App extends Component {
       formFill: false,
       formFillAddress: false,
     },
+
     dropdownMenu: false,
     paymentMethod: "transfer",
     display: "Cameras",
@@ -40,12 +41,18 @@ class App extends Component {
     buttonsCameras: buttonsCameras,
   };
 
+  dropdownToggle = () => {
+    if (this.state.dropdownMenu) {
+      this.setState({ dropdownMenu: false });
+    } else {
+      this.setState({ dropdownMenu: true });
+    }
+  };
+
   update = (e) => {
     var value = e.currentTarget.id;
-    this.setState({
-      display: value,
-      dropdownMenu: false,
-    });
+    console.log(value);
+    this.setState({ display: value });
   };
 
   updateCheckedValue = (e) => {
@@ -105,23 +112,18 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state.dropdownMenu);
     return (
       <Container className={classes.appContainer}>
-        <Header ref={this.myRef} update={this.update}></Header>
-        <Home
-          buttonsFilms={this.state.buttonsFilms}
-          buttonsCameras={this.state.buttonsCameras}
-          display={this.state.display}
+        <Header
+          ref={this.myRef}
           update={this.update}
-          cameras={this.state.cameras}
-          films={this.state.films}
-          accessories={this.state.accessories}
-          select={this.select}
-        ></Home>
+          dropdownToggle={this.dropdownToggle}
+        ></Header>
 
         <Routes>
           <Route
-            path="/GarrettMould/cameraShopMobile"
+            path="/"
             element={
               <Home
                 buttonsFilms={this.state.buttonsFilms}
