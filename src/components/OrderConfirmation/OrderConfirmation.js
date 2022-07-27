@@ -31,7 +31,7 @@ const OrderConfirmation = (props) => {
             arrives.
           </div>
         </div>
-        <Link to="/GarrettMould/cameraShopMobile">
+        <Link to="/">
           <ButtonPurchase text="Close Window"></ButtonPurchase>
         </Link>
       </Card>
